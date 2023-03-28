@@ -19,10 +19,13 @@
 			rel="stylesheet"
 		/>
 		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/mobile.css" />
+		<link rel="stylesheet" href="./css/tablet.css" />
+		<link rel="stylesheet" href="./css/desktop.css" />
 	</head>
 	<body>
 		<!-- Navigation -->
-		<header class="header">
+		<!-- <header class="header">
 			<div class="container header-container">
 				<nav class="site-nav nav-container">
 					<a href="./index.html" class="logo web">Web<span class="logo studio">Studio</span></a>
@@ -49,65 +52,75 @@
 					</ul>
 				</address>
 			</div>
-		</header>
+		</header> -->
+
 		<main>
 			<!-- Hero -->
 			<section class="section hero">
-				<h1 class="hero-title">Effective Solutions for Your Business</h1>
-				<button type="button" data-modal-open class="hero-btn">Order Service</button>
+				<!-- <h1 class="hero-title">Effective Solutions for Your Business</h1>
+				<button type="button" data-modal-open class="hero-btn">Order Service</button> -->
 			</section>
 			<!-- Section 1 -->
 			<section class="section advantages">
 				<div class="container">
 					<h2 class="visually-hidden">Advantages</h2>
 					<ul class="advantages-list list">
-						<li class="advantages-item">
-							<div class="advantages-container">
-								<svg class="advantages-icon" width="64" height="64">
-									<use href="./images/symbol-defs.svg#icon-antenna"></use>
-								</svg>
-							</div>
-							<h3 class="advantages-item-subtitle">Strategy</h3>
-							<p class="advantages-item-text">
-								Our goal is to identify the business problem to walk away with the perfect and creative solution.
-							</p>
-						</li>
-						<li class="advantages-item">
-							<div class="advantages-container">
-								<svg class="advantages-icon" width="64" height="64">
-									<use href="./images/symbol-defs.svg#icon-clock"></use>
-								</svg>
-							</div>
-							<h3 class="advantages-item-subtitle">Punctuality</h3>
-							<p class="advantages-item-text">
-								Bring the key message to the brand's audience for the best price within the shortest possible time.
-							</p>
-						</li>
-						<li class="advantages-item">
-							<div class="advantages-container">
-								<svg class="advantages-icon" width="64" height="64">
-									<use href="./images/symbol-defs.svg#icon-diagram"></use>
-								</svg>
-							</div>
-							<h3 class="advantages-item-subtitle">Diligence</h3>
-							<p class="advantages-item-text">
-								Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
-							</p>
-						</li>
-						<li class="advantages-item-item">
-							<div class="advantages-container">
-								<svg class="advantages-icon" width="64" height="64">
-									<use href="./images/symbol-defs.svg#icon-astronaut"></use>
-								</svg>
-							</div>
-							<h3 class="advantages-item-subtitle">Technologies</h3>
-							<p class="advantages-item-text">
-								Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
-							</p>
-						</li>
+						<div class="advantages-item-wrap">
+							<li class="advantages-item">
+								<div class="advantages-container">
+									<svg class="advantages-icon" width="64" height="64">
+										<use href="./images/symbol-defs.svg#icon-antenna"></use>
+									</svg>
+								</div>
+								<h3 class="advantages-item-subtitle">Strategy</h3>
+								<p class="advantages-item-text">
+									Our goal is to identify the business problem to walk away with the perfect and creative solution.
+								</p>
+							</li>
+						</div>
+						<div class="advantages-item-wrap">
+							<li class="advantages-item">
+								<div class="advantages-container">
+									<svg class="advantages-icon" width="64" height="64">
+										<use href="./images/symbol-defs.svg#icon-clock"></use>
+									</svg>
+								</div>
+								<h3 class="advantages-item-subtitle">Punctuality</h3>
+								<p class="advantages-item-text">
+									Bring the key message to the brand's audience for the best price within the shortest possible time.
+								</p>
+							</li>
+						</div>
+						<div class="advantages-item-wrap">
+							<li class="advantages-item">
+								<div class="advantages-container">
+									<svg class="advantages-icon" width="64" height="64">
+										<use href="./images/symbol-defs.svg#icon-diagram"></use>
+									</svg>
+								</div>
+								<h3 class="advantages-item-subtitle">Diligence</h3>
+								<p class="advantages-item-text">
+									Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
+								</p>
+							</li>
+						</div>
+						<div class="advantages-item-wrap">
+							<li class="advantages-item-item">
+								<div class="advantages-container">
+									<svg class="advantages-icon" width="64" height="64">
+										<use href="./images/symbol-defs.svg#icon-astronaut"></use>
+									</svg>
+								</div>
+								<h3 class="advantages-item-subtitle">Technologies</h3>
+								<p class="advantages-item-text">
+									Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
+								</p>
+							</li>
+						</div>
 					</ul>
 				</div>
 			</section>
+
 			<!-- Section 2 -->
 			<section class="section activities">
 				<div class="container">
@@ -125,6 +138,7 @@
 					</ul>
 				</div>
 			</section>
+
 			<!-- Section 3 -->
 			<section class="section team">
 				<div class="container">
@@ -167,6 +181,7 @@
 								</ul>
 							</div>
 						</li>
+
 						<li class="team-item">
 							<img src="./images/team-card-b.jpg" alt="photo of Tom Ford" width="264" />
 							<div class="img-box">
@@ -204,6 +219,7 @@
 								</ul>
 							</div>
 						</li>
+
 						<li class="team-item">
 							<img src="./images/team-card-c.jpg" alt="photo of Camila Garcia" width="264" />
 							<div class="img-box">
@@ -241,6 +257,7 @@
 								</ul>
 							</div>
 						</li>
+
 						<li class="team-item">
 							<img src="./images/team-card-d.jpg" alt="photo of Daniel Wilson" width="264" />
 							<div class="img-box">
@@ -282,7 +299,7 @@
 				</div>
 			</section>
 			<!-- Section 4 -->
-			<section class="section customers">
+			<!-- <section class="section customers">
 				<div class="container customers">
 					<h2 class="customers-title">Customers</h2>
 					<ul class="customers-list list">
@@ -330,9 +347,11 @@
 						</li>
 					</ul>
 				</div>
-			</section>
+			</section> -->
 		</main>
-		<footer class="section footer">
+
+		<!-- Footer -->
+		<!-- <footer class="section footer">
 			<div class="big footer container">
 				<div class="first footer container">
 					<a href="./index.html" class="logo web">Web<span class="logo studio-white">Studio</span></a>
@@ -382,10 +401,10 @@
 					</form>
 				</div>
 			</div>
-		</footer>
+		</footer> -->
 
 		<!-- Modal window -->
-		<div class="backdrop is-hidden" data-modal>
+		<!-- <div class="backdrop is-hidden" data-modal>
 			<div class="modal">
 				<button type="button" data-modal-close class="modal-close">
 					<svg class="modal-icon" width="8" height="8">
@@ -433,7 +452,8 @@
 					<button type="submit" class="send-btn btn">Send</button>
 				</form>
 			</div>
-		</div>
+		</div> -->
 		<script src="./js/modal.js"></script>
 	</body>
 </html>
+-->

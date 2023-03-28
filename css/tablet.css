@@ -1,0 +1,65 @@
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 766px;
+	}
+
+	.section {
+		padding-top: 96px;
+		padding-bottom: 96px;
+	}
+
+	.section.advantages {
+		width: 736px;
+		/* height: 312px; */
+	}
+
+	.advantages-list {
+		display: flex;
+		margin: 0;
+		flex-wrap: wrap;
+		flex-direction: row;
+		row-gap: 72px;
+		column-gap: 24px;
+		/* flex-basis: calc((100%-24px) / 2); */
+		/* width: calc((100%-24px) / 2); */
+	}
+
+	.advantages-item {
+		width: calc((100%-24px) / 2);
+	}
+
+	.advantages-item-wrap {
+		/* max-width: 356px; */
+	}
+
+	.advantages-item-text {
+		text-align: left;
+		/* max-width: 356px; */
+	}
+
+	/* Section 3 */
+	.section.team {
+		width: 768px;
+		height: 1232px;
+	}
+	.team-item-wrap {
+	}
+	.team-list {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		row-gap: 64px;
+		column-gap: 24px;
+		flex-basis: calc((100%-24px) / 2);
+		justify-content: center;
+		align-items: center;
+		/* margin-right: auto;
+        margin-left: auto; */
+		padding: 0px 0px;
+	}
+
+	.list {
+		/* display: flex;
+        gap: 24px; */
+	}
+}

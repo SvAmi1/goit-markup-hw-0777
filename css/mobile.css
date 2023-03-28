@@ -1,0 +1,16 @@
+@media screen and (min-width: 428px) {
+	.container {
+		max-width: 426px;
+	}
+
+	.section {
+		padding-top: 96px;
+		padding-bottom: 96px;
+	}
+
+	.advantages-list {
+		display: flex;
+		flex-direction: column;
+		gap: 72px;
+	}
+}
