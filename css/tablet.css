@@ -18,17 +18,15 @@
 		flex-direction: row;
 		row-gap: 72px;
 		column-gap: 24px;
-		/* flex-basis: calc((100%-24px) / 2); */
-		/* width: calc((100%-24px) / 2); */
 	}
 
 	.advantages-item {
-		width: calc((100%-24px) / 2);
+		flex-basis: calc((100% - 24px) / 2);
 	}
 
 	.advantages-item-text {
 		text-align: left;
-		/* max-width: 356px; */
+		max-width: 356px;
 	}
 
 	/* Section 3 */
