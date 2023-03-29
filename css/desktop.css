@@ -43,7 +43,7 @@
 
 	.advantages-item-text {
 		text-align: left;
-		max-width: 264px;
+		width: 264px;
 		font-weight: 400;
 	}
 
@@ -84,7 +84,7 @@
 		background-color: #fff;
 		box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
 			0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-		/* width: calc((100% - 72px) / 4); */
+		flex-basis: calc((100% - 72px) / 4);
 	}
 	.img-box {
 		padding: 32px 16px;
