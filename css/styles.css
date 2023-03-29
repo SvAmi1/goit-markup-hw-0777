@@ -48,7 +48,6 @@ body {
 	color: var(--text);
 }
 .container {
-	/* max-width: 1158px; */
 	width: 100%;
 	padding: 0 15px;
 	margin: 0 auto;
@@ -232,7 +231,6 @@ body {
 /* Section 1 */
 
 .advantages {
-	width: 396px;
 	padding-top: 96px;
 	padding-bottom: 96px;
 }
@@ -439,9 +437,9 @@ body {
 	column-gap: 24px;
 	row-gap: 48px;
 	flex-wrap: wrap;
-	flex-basis: calc((100%-48px) / 3);
 }
 .portfolio-item {
+	flex-basis: calc((100% - 48px) / 3);
 }
 .portfolio-overlay {
 	position: relative;
