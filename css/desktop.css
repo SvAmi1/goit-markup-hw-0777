@@ -10,8 +10,6 @@
 
 	/* Section 1 */
 
-	.section.advantages {
-	}
 	.advantages-list {
 		display: flex;
 		flex-direction: row;
@@ -65,9 +63,6 @@
 
 	/* Section 3 */
 
-	.section.team {
-		width: 100%;
-	}
 	.team-title {
 		font-weight: 700;
 		font-size: 36px;
@@ -75,12 +70,14 @@
 		margin-bottom: var(--title-margin-bottom);
 	}
 	.team-list {
+		margin: 0;
 	}
 	.list {
 		display: flex;
 		gap: 24px;
 	}
 	.team-item {
+		display: list-item;
 		background-color: #fff;
 		box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
 			0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -126,5 +123,49 @@
 	.team-social-link:hover,
 	.team-social-link:focus {
 		background-color: var(--pressed-state);
+	}
+
+	/* Section 4 */
+	.section.customers {
+		padding-top: 130px;
+	}
+	.container.customers {
+	}
+	.customers-title {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 1.11;
+		margin-bottom: var(--title-margin-bottom);
+	}
+	.customers-list {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		gap: 24px;
+		width: 100%;
+	}
+	.customers-item {
+	}
+	.customer-link {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 168px;
+		height: 88px;
+		color: var(--subtle-text);
+		border: 1px solid var(--subtle-text);
+		border-radius: 4px;
+
+		transition-property: color, border-color;
+		transition-duration: 250ms;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	.customer-link:hover,
+	.customer-link:focus {
+		color: var(--pressed-state);
+		border-color: var(--pressed-state);
+	}
+	.customers-icon {
+		fill: currentColor;
 	}
 }
