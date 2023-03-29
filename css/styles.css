@@ -290,6 +290,7 @@ body {
 	gap: 72px;
 }
 .team-item {
+	/* width: 264px; */
 	background-color: #fff;
 	box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
 		0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -507,29 +508,29 @@ body {
 .footer-text {
 	color: var(--accent);
 	width: 264px;
-	text-align: left;
+	text-align: justify;
 	margin-top: 16px;
 }
 
-.footer-text {
-	color: var(--accent);
-	width: 268px;
-	text-align: center;
-	margin-top: 16px;
-}
 .big.footer.container {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	/* gap: 120px; */
 	position: relative;
 }
 .first.footer.container {
-	margin-left: 0;
-	margin-right: 90px;
-	padding-left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer.logo {
+	margin: 0 auto;
 }
 .secondary.footer.container {
-	margin-left: 0;
-	margin-right: 65px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .footer-social-subtitle {
 	font-weight: 500;
@@ -571,16 +572,12 @@ body {
 .footer-social-icon {
 }
 .third.footer.container {
-	/* position: absolute;
-	top: 0;
-	right: 0; */
 	margin: 72px 0 0;
 }
 .footer-form {
-	display: block;
-	/* position: relative; */
-	min-width: 453px;
-	min-height: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .footer-subscribe-subtitle {
 	font-weight: 500;
@@ -594,12 +591,10 @@ body {
 	left: 0; */
 }
 .subscribe-input {
-	/* position: absolute;
-	bottom: 0;
-	left: 0; */
-	width: 264px;
+	width: 398px;
 	height: 40px;
 	padding: 8px 16px;
+	margin-top: 16px;
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 	border-radius: 4px;
@@ -624,6 +619,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding: 8px 24px;
+	margin-top: 16px;
 	gap: 16px;
 
 	/* position: absolute;
