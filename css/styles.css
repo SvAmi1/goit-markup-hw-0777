@@ -273,6 +273,9 @@ body {
 .section.team {
 	background-color: var(--light);
 }
+.team.container {
+	max-width: 264px;
+}
 .team-title {
 	font-weight: 700;
 	font-size: 36px;
